@@ -1,7 +1,8 @@
 // Usage:
 // npm install http
 // node app.js
-
+//To execute the type following url
+//http://localhost:8080/api/products?sort=&order=des&spec[]=
 var express=require('express');
 var bodyParser = require("body-parser");
 var app=express();
